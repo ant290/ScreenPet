@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://c34gkohtyxcq4"]
+
+[ext_resource type="Script" uid="uid://d1pmrc3c24xnm" path="res://window_mode.gd" id="1_gmsdy"]
+
+[sub_resource type="PlaceholderTexture2D" id="PlaceholderTexture2D_nmcby"]
+size = Vector2(40, 40)
+
+[node name="WindowMode" type="Node2D" unique_id=1164252027]
+script = ExtResource("1_gmsdy")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=393282832]
+position = Vector2(20, 20)
+texture = SubResource("PlaceholderTexture2D_nmcby")
